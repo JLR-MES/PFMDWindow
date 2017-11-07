@@ -6,7 +6,6 @@ namespace UnitTest
     [TestClass]
     public class UnitTestBL
     {
-        [TestMethod]
         public void TestMethodAddNum1()
         {
 

@@ -8,7 +8,7 @@ using BusinessLayer;
 namespace NUnit.Tests1
 {
     [TestFixture]
-    public class TestClassWinForm1
+    public class TestClass
     {
         [Test]
         public void AddNum1()
@@ -27,7 +27,7 @@ namespace NUnit.Tests1
             int expected, actual;
             expected = 40;
             WinForm WinF = new WinForm();
-            actual = WinF.AddNum(10, 20);
+            actual = WinF.AddNum(20, 20);
             Assert.AreEqual(expected, actual);
         }
     }

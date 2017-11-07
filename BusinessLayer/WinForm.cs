@@ -11,6 +11,7 @@ namespace BusinessLayer
         public int AddNum(int a, int b)
         {
             return a + b;
+
         }
     }
 }

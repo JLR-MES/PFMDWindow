@@ -6,6 +6,7 @@ namespace UnitTest
     [TestClass]
     public class UnitTestBL
     {
+        [TestMethod]
         public void TestMethodAddNum1()
         {
 
@@ -20,7 +21,7 @@ namespace UnitTest
         {
 
             int expected, actual;
-            expected = 30;
+            expected = 40;
             WinForm WinF = new WinForm();
             actual = WinF.AddNum(20, 20);
             Assert.AreEqual(expected, actual);
